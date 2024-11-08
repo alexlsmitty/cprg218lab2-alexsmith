@@ -1,0 +1,51 @@
+/*Setting Root variables for maintaining consistency */
+:root {
+    --header-background-colour: #120323;
+    --button-text-colour: #120323;
+    /* Meant to be the same colour as the header background colour */
+    --header-text-colour: #97bf04;
+    --button-select-colour: #97bf04;
+    /* Meant to be the same colour as the header text colour */
+    --button-color: #d9043d;
+}
+
+/* Header and text styling */
+header {
+    margin-top: -10px;
+    width: 100%;
+    padding: 20px;
+    justify-items: center;
+    background-color: var(--header-background-colour);
+}
+
+header h1 {
+    text-align: center;
+    color: var(--header-text-colour);
+}
+
+/*Styling for main image and gallery */
+#gallery {
+    display: flex;
+    justify-content: center;
+}
+#main-image {
+    margin: 20px;
+    max-width: 900px;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 12px black;
+}
+
+/*styling for buttons and wrapper which contains them*/
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--button-color);
+    border-radius: 10px;
+}
